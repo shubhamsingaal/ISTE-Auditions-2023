@@ -189,7 +189,9 @@ ul,
 menu {
     list-style: none;
     margin: 0;
-    padding: 0
+    padding: 0;
+    font-size: 21px;
+    font-weight: bolder;
 }
 
 textarea {
@@ -2169,7 +2171,8 @@ video {
 
 .dark .dark\:text-gray-400 {
     --tw-text-opacity: 1;
-    color: rgb(156 163 175 / var(--tw-text-opacity))
+    color: rgb(156 163 175 / var(--tw-text-opacity));
+    font-size:17px;
 }
 
 .dark .dark\:text-slate-400 {
@@ -2454,7 +2457,8 @@ video {
 
     .md\:py-12 {
         padding-top: 3rem;
-        padding-bottom: 3rem
+        padding-bottom: 3rem;
+        padding-left: 40%;
     }
 
     .md\:py-8 {
@@ -3768,4 +3772,11 @@ iframe{
     to {
         transform: translateY(-2000px);
     }
+}
+
+.logo{
+    height: 50px;
+    width: auto;
+    border-radius: 100px;
+    margin-top: 9px;
 }
